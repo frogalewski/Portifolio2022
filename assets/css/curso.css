@@ -1,0 +1,85 @@
+.curso {
+    padding: 3rem 0;
+}
+
+.curso__conteudo {
+    display: inline-grid;
+    flex-wrap: wrap;
+    padding: 1rem 0rem;
+    
+}
+
+.curso__card {
+ max-width: 55%;
+ max-height: 45%;
+}
+
+.curso__card:last-child {
+    margin-right: 0;
+}
+
+.curso__card___imagem {
+   
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.curso__card___corpo {
+    display: grid;
+    grid-area: card-corpo;
+    grid-row-gap: .5rem;
+    grid-template-areas: 
+        "card-cabecalho"
+        "card-conteudo";
+    grid-template-rows: 50px auto;
+    padding: .75rem;
+}
+
+.curso__card___titulo {
+    color: #333333;
+    font-size: 1.5rem;
+}
+
+.curso__card___data {
+    color: #808080;
+    font-size: .9rem;
+}
+
+.curso__card___descricao {
+    color: #333333;
+    line-height: 1.5;
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+.curso__titulo {
+    font-weight: 500;
+}
+
+.curso__icone {
+    margin-right: .25rem;
+}
+
+.descricao{
+    display: grid;
+    grid-gap: .2rem;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: calc(100vh - 50px);
+    float: left;
+}
+
+
+
+.curso__cabecalho {
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.curso__botao {
+    background: transparent;
+    border: none;
+    color: #333333;
+}

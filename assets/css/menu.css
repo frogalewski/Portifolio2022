@@ -1,0 +1,15 @@
+.menu__link {
+    color: #FFFAF0;
+    padding: .5rem 1rem;
+}
+
+.menu__link:hover, .menu__link.ativo {
+    border-bottom: 2px solid #0073e6;
+}
+
+i .linkedin{
+    width: 1vw;
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
